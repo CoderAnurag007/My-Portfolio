@@ -7,7 +7,7 @@ body {
 .sec2box {
   background-color: black;
   color: white;
-  height: 100vh;
+  min-height: 100vh;
   margin-bottom: 3rem;
 }
 h1 {

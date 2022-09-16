@@ -45,6 +45,7 @@
 .socialcard a {
   color: aqua;
   cursor: pointer;
+  text-decoration: none;
 }
 .socialcard a:hover {
   color: rgb(47, 255, 61);
