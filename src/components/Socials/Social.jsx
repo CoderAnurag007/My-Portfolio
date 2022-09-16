@@ -21,6 +21,7 @@ const Social = () => {
           <a
             href="https://www.linkedin.com/in/anurag-singh-97009b1a0/"
             target={"_blank"}
+            rel="noreferrer"
           >
             Linkedin
           </a>
@@ -30,19 +31,28 @@ const Social = () => {
           <a
             href="https://www.instagram.com/anurag_or_ayush/"
             target={"_blank"}
+            rel="noreferrer"
           >
             Instagram
           </a>
         </div>
         <div className="socialcard">
           <img src={Codechef} alt="" />
-          <a href="https://www.codechef.com/users/zeptox" target={"_blank"}>
+          <a
+            href="https://www.codechef.com/users/zeptox"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             CodeChef
           </a>
         </div>
         <div className="socialcard">
           <img src={Hacker} alt="" />
-          <a href="https://www.hackerrank.com/Anuragsingh99" target={"_blank"}>
+          <a
+            href="https://www.hackerrank.com/Anuragsingh99"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             Hacker Rank
           </a>
         </div>
