@@ -48,7 +48,7 @@ const Projects = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Machz} className="d-block w-200" alt="..." />
+            <img src={Machz} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block project-detail">
               <h5>Full Stack React Web App - MachZ Clothing</h5>
               <div className="projectopen">
@@ -70,7 +70,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Text} className="d-block w-200" alt="..." />
+            <img src={Text} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block project-detail">
               <h5>React Web App - Text Editor </h5>
               <div className="projectopen">
@@ -92,7 +92,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Pokemon} className="d-block w-200" alt="..." />
+            <img src={Pokemon} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block project-detail">
               <h5>Pokemon Search App - React App Using Pokemon Api</h5>
               <div className="projectopen">
