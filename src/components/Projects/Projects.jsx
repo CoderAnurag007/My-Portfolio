@@ -49,7 +49,7 @@ const Projects = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={Machz} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block project-detail">
+            <div className="carousel-caption  project-detail">
               <h5>Full Stack React Web App - MachZ Clothing</h5>
               <div className="projectopen">
                 <a
@@ -71,7 +71,7 @@ const Projects = () => {
           </div>
           <div className="carousel-item">
             <img src={Text} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block project-detail">
+            <div className="carousel-caption project-detail">
               <h5>React Web App - Text Editor </h5>
               <div className="projectopen">
                 <a
@@ -93,7 +93,7 @@ const Projects = () => {
           </div>
           <div className="carousel-item">
             <img src={Pokemon} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block project-detail">
+            <div className="carousel-caption project-detail">
               <h5>Pokemon Search App - React App Using Pokemon Api</h5>
               <div className="projectopen">
                 <a
@@ -115,7 +115,7 @@ const Projects = () => {
           </div>
           <div className="carousel-item">
             <img src={Dashboard} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block project-detail">
+            <div className="carousel-caption project-detail">
               <h5>Frontend - Responsive React Ui Dashboard</h5>
               <div className="projectopen">
                 <a
