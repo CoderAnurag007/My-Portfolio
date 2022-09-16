@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maindiv {
+  width: 100vw;
+  background-color: black;
+}
+
+.border {
+  background-color: yellow;
+  height: 10px;
+}

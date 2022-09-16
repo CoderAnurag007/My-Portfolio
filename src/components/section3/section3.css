@@ -1,0 +1,36 @@
+.section3-container {
+  width: 100%;
+  min-height: 120vh;
+}
+
+.section3-container h1 {
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.section3-container h1 .skillhead {
+  color: yellow;
+}
+
+.skills-container {
+  width: 80%;
+
+  margin: auto;
+  background-color: white;
+  min-height: 70%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 20px;
+  padding-left: 15px;
+  row-gap: 1rem;
+  justify-content: center;
+  padding: 10px;
+}
+@media (max-width: 635px) {
+  .section3-container {
+    margin-bottom: 2rem;
+  }
+}

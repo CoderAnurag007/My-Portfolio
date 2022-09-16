@@ -1,0 +1,80 @@
+.resumebox {
+  margin-top: 50px;
+  min-height: 70vh;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.rightside_cv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.rightside_cv h3 {
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+.rightside_cv img {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 20px;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+
+.download_btn {
+  padding: 10px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, orange, rgb(255, 111, 0));
+  transition: 0.3s;
+  font-weight: 500;
+}
+.download_btn a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.download_btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px orange;
+}
+.downloadcv {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blur {
+  position: absolute;
+}
+
+.blur:nth-of-type(1) {
+  top: 2rem;
+  left: 3rem;
+  position: absolute;
+  width: 12rem;
+  height: 6rem;
+  border-radius: 50%;
+  background: #ffb300;
+  filter: blur(72px);
+}
+.blur:nth-of-type(2) {
+  bottom: 2rem;
+  left: 33rem;
+  width: 12rem;
+  height: 6rem;
+  background-color: rgb(0, 255, 13);
+  filter: blur(72px);
+}
+
+@media (max-width: 430px) {
+  .resumebox {
+    flex-direction: column-reverse;
+    min-height: 60vh;
+  }
+}

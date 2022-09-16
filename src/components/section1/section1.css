@@ -1,0 +1,159 @@
+/* html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+} */
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.body::before {
+  content: "";
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  min-height: 400px;
+  margin-top: 60px;
+  width: 700px;
+  background: rgba(53, 52, 56, 0.3);
+  border-radius: 1em;
+  backdrop-filter: blur(15px);
+  /* border: 2px solid rgba(255, 255, 255, 5); */
+  box-shadow: 0 1px 1px rgb(231, 242, 17), inset 0 1px 1px rgb(3, 251, 255);
+
+  background-clip: padding-box;
+  /* box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03); */
+}
+
+@media (max-width: 740px) {
+  .body {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    margin: 4px;
+  }
+  .imagesec1 {
+    width: 150px;
+    height: 150px;
+  }
+  .textwrap {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 660px) {
+  .text {
+    flex-direction: column;
+  }
+  .imagesec1 {
+    margin-left: 5rem;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+}
+.sec1part {
+  outline: none;
+  border: none;
+  height: 2px;
+}
+
+.textwrap {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.textwrap .first {
+  color: yellow;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textwrap .other {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagesec1 {
+  width: 250px;
+  height: 250px;
+  z-index: 2;
+  background-image: url("../../../public/profile.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-right: 50px;
+  /* border: 2px solid white; */
+  box-shadow: 0 1px 1px rgb(231, 242, 17), inset 0 1px 1px rgb(3, 251, 255);
+}
+.occu {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.field {
+  font-size: 1.35rem;
+  color: white;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  animation: textwriter 2s linear infinite;
+  transition: 1s all;
+}
+.words {
+  overflow: hidden;
+  height: 25px;
+}
+.words span {
+  animation: rotatetxt 12s infinite;
+  display: block;
+}
+.words span:nth-child(1) {
+  color: magenta;
+}
+.words span:nth-child(2) {
+  color: yellow;
+}
+.words span:nth-child(3) {
+  color: rgb(152, 250, 6);
+}
+.words span:nth-child(4) {
+  color: aqua;
+}
+@keyframes rotatetxt {
+  25% {
+    transform: translateY(-112%);
+  }
+  30% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(-212%);
+  }
+  55% {
+    transform: translateY(-200%);
+  }
+  75% {
+    transform: translateY(-312%);
+  }
+  80% {
+    transform: translateY(-300%);
+  }
+}

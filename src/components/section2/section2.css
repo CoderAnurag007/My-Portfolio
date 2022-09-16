@@ -1,0 +1,113 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.sec2box {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin-bottom: 3rem;
+}
+h1 {
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+.abouthead {
+  color: yellow;
+  font-weight: bold;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textbox2 {
+  background-color: white;
+  color: black;
+  width: 80%;
+  margin: auto;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.textbox2 p {
+  text-align: center;
+  width: 80%;
+}
+.edubox {
+  margin-top: 2em;
+  width: 80%;
+}
+.edubox h2 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.educard {
+  width: 13rem;
+  height: 15rem;
+  box-shadow: 4px 4px 15px rgba(112, 110, 110, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+.educard ul {
+  width: 100%;
+  margin-top: 20px;
+  line-height: 1.2em;
+}
+.educard ul li {
+  list-style: none;
+  font-size: small;
+  width: 100%;
+
+  margin-left: -15px;
+}
+.educard h3 {
+  font-size: 0.9em;
+  text-align: center;
+  width: 100%;
+  color: rgba(6, 6, 6, 0.801);
+}
+.edubox .circle {
+  min-width: 10px;
+  min-height: 10px;
+  background-color: rgb(31, 29, 29);
+  border-radius: 50%;
+}
+.edubox .line {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+@media (max-width: 950px) {
+  .edubox .line {
+    width: 50px;
+  }
+  .edubox {
+    width: 100%;
+  }
+  .textbox2 {
+    padding: 15px;
+  }
+}
+.educontent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 695px) {
+  .educontent {
+    display: flex;
+    flex-direction: column;
+  }
+  .edubox .line {
+    height: 40px;
+    width: 10px;
+  }
+}

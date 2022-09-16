@@ -1,0 +1,28 @@
+.skillcard {
+  width: 160px;
+  height: 150px;
+  /* border: 2px solid red; */
+  text-align: center;
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 4px 4px 15px rgba(112, 110, 110, 0.5);
+}
+.skill_logo img {
+  width: 5rem;
+  height: 4rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 15px rgba(112, 110, 110, 0.5);
+}
+@media (max-width: 435px) {
+  .skillcard {
+    width: 120px;
+    height: 110px;
+  }
+  .skill_logo img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
