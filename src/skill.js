@@ -13,6 +13,7 @@ import Styled from "./logos/styled component.png";
 import Quick from "./logos/quick learn.jpg";
 import Problem from "./logos/problem solving.png";
 import Com from "./logos/communication skill.png";
+import scss from "./logos/scss.png";
 
 export const Skill = [
   {
@@ -74,5 +75,9 @@ export const Skill = [
   {
     name: "Strong Communication",
     img: Com,
+  },
+  {
+    name: "Sass",
+    img: scss,
   },
 ];
