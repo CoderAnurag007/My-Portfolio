@@ -51,17 +51,6 @@
   }
 }
 
-@media (max-width: 660px) {
-  .text {
-    flex-direction: column;
-  }
-  .imagesec1 {
-    margin-left: 4rem;
-    height: 200px;
-    width: 200px;
-    margin-bottom: 2rem;
-  }
-}
 .sec1part {
   outline: none;
   border: none;
@@ -149,5 +138,20 @@
   }
   80% {
     transform: translateY(-300%);
+  }
+}
+
+@media (max-width: 660px) {
+  .text {
+    flex-direction: column;
+  }
+  .imagesec1 {
+    margin-left: 4rem;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+  .textwrap {
+    margin-left: 80px;
   }
 }
