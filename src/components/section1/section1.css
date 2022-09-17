@@ -27,10 +27,8 @@
   background: rgba(53, 52, 56, 0.3);
   border-radius: 1em;
   backdrop-filter: blur(15px);
-  box-shadow: 0 1px 1px rgb(231, 242, 17), inset 0 1px 1px rgb(3, 251, 255);
-
+  border: 2px solid white;
   background-clip: padding-box;
-  /* box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03); */
 }
 
 @media (max-width: 740px) {
@@ -83,8 +81,7 @@
   border-radius: 50%;
   margin-top: 50px;
   margin-right: 50px;
-  /* border: 2px solid white; */
-  box-shadow: 0 1px 1px rgb(231, 242, 17), inset 0 1px 1px rgb(3, 251, 255);
+  border: 2px solid white;
 }
 .occu {
   font-size: 1.3rem;
@@ -109,7 +106,7 @@
   display: block;
 }
 .words span:nth-child(1) {
-  color: magenta;
+  color: rgb(255, 255, 255);
 }
 .words span:nth-child(2) {
   color: yellow;
