@@ -1,9 +1,3 @@
-/* html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-} */
-
 .body {
   display: flex;
   justify-content: center;
@@ -29,11 +23,10 @@ body {
   z-index: 2;
   min-height: 400px;
   margin-top: 60px;
-  width: 700px;
+  width: 50%;
   background: rgba(53, 52, 56, 0.3);
   border-radius: 1em;
   backdrop-filter: blur(15px);
-  /* border: 2px solid rgba(255, 255, 255, 5); */
   box-shadow: 0 1px 1px rgb(231, 242, 17), inset 0 1px 1px rgb(3, 251, 255);
 
   background-clip: padding-box;
@@ -45,8 +38,9 @@ body {
     width: 100%;
   }
   .text {
-    width: 100%;
+    width: 90%;
     margin: 4px;
+    margin-top: -30px;
   }
   .imagesec1 {
     width: 150px;
@@ -62,7 +56,7 @@ body {
     flex-direction: column;
   }
   .imagesec1 {
-    margin-left: 5rem;
+    margin-left: 4rem;
     height: 200px;
     width: 200px;
     margin-bottom: 2rem;

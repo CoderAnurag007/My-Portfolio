@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
 }
@@ -69,6 +69,8 @@
     height: 70vh;
   }
   .leftsocial {
+    margin-right: 0rem;
+
     width: 100%;
   }
   .rightsocial {
