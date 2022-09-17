@@ -110,4 +110,7 @@ h1 {
     height: 40px;
     width: 2px;
   }
+  .textbox2 {
+    width: 95%;
+  }
 }
