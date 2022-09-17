@@ -23,7 +23,7 @@
   z-index: 2;
   min-height: 400px;
   margin-top: 60px;
-  width: 50%;
+  width: 700px;
   background: rgba(53, 52, 56, 0.3);
   border-radius: 1em;
   backdrop-filter: blur(15px);
@@ -38,7 +38,7 @@
     width: 100%;
   }
   .text {
-    width: 90%;
+    width: 95%;
     margin: 4px;
     margin-top: -30px;
   }
