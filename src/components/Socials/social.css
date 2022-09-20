@@ -1,12 +1,17 @@
 .socialbox {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
 }
 
+@media (max-width: 520px) {
+  .socialbox {
+    min-height: 50vh;
+  }
+}
 .leftsocial {
   width: 50%;
   margin-right: 2rem;
@@ -28,6 +33,7 @@
   height: 10rem;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
   transition: 0.1s all;
+  background-color: black;
 }
 
 .socialcard:nth-child(1):hover {

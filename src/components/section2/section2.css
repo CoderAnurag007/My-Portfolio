@@ -5,7 +5,9 @@ body {
 }
 
 .sec2box {
-  background-color: black;
+  /* background-color: black; */
+  background: linear-gradient(90deg, black, rgb(30, 30, 58));
+
   color: white;
   min-height: 100vh;
   margin-bottom: 3rem;

@@ -29,8 +29,3 @@
   justify-content: center;
   padding: 10px;
 }
-@media (max-width: 635px) {
-  .section3-container {
-    margin-bottom: 2rem;
-  }
-}

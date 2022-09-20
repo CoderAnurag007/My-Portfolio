@@ -6,7 +6,8 @@
 
 .maindiv {
   width: 100vw;
-  background-color: black;
+  /* background-color: black; */
+  background: linear-gradient(90deg, black, rgb(30, 30, 58));
 }
 
 .border {

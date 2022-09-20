@@ -1,19 +1,21 @@
 .contact_container {
   width: 100%;
-  height: 100vh;
-  background: url("../../logos/mohammad-rahmani-W-LQbAUhE64-unsplash.jpg");
+  min-height: 70vh;
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(90deg, black, rgb(30, 30, 58));
 }
 
 .formbox {
   width: 50%;
-  height: 70%;
+  height: 25rem;
+  margin-bottom: 3rem;
   background: transparent;
   backdrop-filter: blur(15px);
+  background-color: black;
   box-shadow: 0 0 10px aqua;
   border-radius: 8px;
   display: flex;
