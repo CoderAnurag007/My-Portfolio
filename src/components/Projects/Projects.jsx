@@ -4,7 +4,7 @@ import Machz from "../../logos/machz.png";
 import Text from "../../logos/text utils.png";
 import Pokemon from "../../logos/poke.png";
 import Dashboard from "../../logos/react dashboard.png";
-// import HomeDecor from "../../logos/Homedecor.png";
+import Paint from "../../logos/paint.png";
 const Projects = () => {
   return (
     <div className="project-container">
@@ -44,6 +44,12 @@ const Projects = () => {
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="3"
             aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
           ></button>
         </div>
         <div className="carousel-inner">
@@ -88,6 +94,28 @@ const Projects = () => {
                 >
                   Live Demo
                 </a>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src={Paint} className="d-block w-100" alt="..." />
+            <div className="carousel-caption project-detail">
+              <h5>Paint App - Using FabricJs & ReactJs </h5>
+              <div className="projectopen">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://github.com/CoderAnurag007/Paint-App-Backend"
+                  target={"_blank"}
+                >
+                  Github
+                </a>
+                {/* <a
+                  rel="noopener noreferrer"
+                  href="https://coderanurag007.github.io/Scripter/"
+                  target={"_blank"}
+                >
+                  Live Demo
+                </a> */}
               </div>
             </div>
           </div>

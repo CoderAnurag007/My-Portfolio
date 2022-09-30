@@ -5,6 +5,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
+  /* row-gap: -1rem; */
 }
 
 @media (max-width: 520px) {
@@ -17,7 +18,7 @@
   margin-right: 2rem;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
@@ -47,6 +48,9 @@
 }
 .socialcard:nth-child(4):hover {
   box-shadow: 0 0 15px rgba(43, 255, 0, 0.8);
+}
+.socialcard:nth-child(5):hover {
+  box-shadow: 0 0 15px rgba(153, 0, 255, 0.8);
 }
 .socialcard a {
   color: aqua;

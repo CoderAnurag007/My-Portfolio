@@ -4,6 +4,7 @@ import Linkedin from "../../logos/linkedin-logo-png-2026.png";
 import Insta from "../../logos/instalogo.png";
 import Codechef from "../../logos/codechef.png";
 import Hacker from "../../logos/hackerrank.png";
+import Github from "../../logos/github.png";
 
 const Social = () => {
   return (
@@ -54,6 +55,16 @@ const Social = () => {
             rel="noreferrer"
           >
             Hacker Rank
+          </a>
+        </div>
+        <div className="socialcard">
+          <img src={Github} alt="" />
+          <a
+            href="https://github.com/CoderAnurag007"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Github
           </a>
         </div>
       </div>
