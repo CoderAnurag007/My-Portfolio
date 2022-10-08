@@ -5,6 +5,7 @@ import Text from "../../logos/text utils.png";
 import Pokemon from "../../logos/poke.png";
 import Dashboard from "../../logos/react dashboard.png";
 import Paint from "../../logos/paint.png";
+import Homepage from "../../logos/Homepage.png";
 const Projects = () => {
   return (
     <div className="project-container">
@@ -50,6 +51,12 @@ const Projects = () => {
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="4"
             aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
           ></button>
         </div>
         <div className="carousel-inner">
@@ -109,13 +116,6 @@ const Projects = () => {
                 >
                   Github
                 </a>
-                {/* <a
-                  rel="noopener noreferrer"
-                  href="https://coderanurag007.github.io/Scripter/"
-                  target={"_blank"}
-                >
-                  Live Demo
-                </a> */}
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ const Projects = () => {
           <div className="carousel-item">
             <img src={Dashboard} className="d-block w-100" alt="..." />
             <div className="carousel-caption project-detail">
-              <h5>Frontend - Responsive React Ui Dashboard</h5>
+              <h5>UI/UX- Responsive React Ui Dashboard</h5>
               <div className="projectopen">
                 <a
                   rel="noopener noreferrer"
@@ -156,6 +156,28 @@ const Projects = () => {
                 <a
                   rel="noopener noreferrer"
                   href="https://venerable-bavarois-c20bb4.netlify.app/"
+                  target={"_blank"}
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src={Homepage} className="d-block w-100" alt="..." />
+            <div className="carousel-caption project-detail">
+              <h5>UI/UX - Beautiful Responsive Homepage</h5>
+              <div className="projectopen">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://github.com/CoderAnurag007/Homepage-React-Ui"
+                  target={"_blank"}
+                >
+                  Github
+                </a>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://silver-cannoli-a85c24.netlify.app/"
                   target={"_blank"}
                 >
                   Live Demo
