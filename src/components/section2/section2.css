@@ -24,16 +24,17 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .textbox2 {
-  background-color: white;
-  color: black;
+  background-color: #1f2937;
+  color: rgb(255, 255, 255);
   width: 80%;
   margin: auto;
   height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding: 20px;
   margin-top: 30px;
+  border-radius: 12px;
 }
 .textbox2 p {
   text-align: center;
@@ -50,11 +51,14 @@ h1 {
 .educard {
   width: 13rem;
   height: 15rem;
-  box-shadow: 4px 4px 15px rgba(112, 110, 110, 0.5);
+  /* border: 1px solid white; */
+  background-color: #19202a;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: left;
+  padding: 10px 0;
 }
 .educard ul {
   width: 100%;
@@ -72,18 +76,18 @@ h1 {
   font-size: 0.9em;
   text-align: center;
   width: 100%;
-  color: rgba(6, 6, 6, 0.801);
+  color: rgba(255, 255, 255, 0.801);
 }
 .edubox .circle {
   min-width: 10px;
   min-height: 10px;
-  background-color: rgb(31, 29, 29);
+  background-color: rgb(9, 223, 220);
   border-radius: 50%;
 }
 .edubox .line {
   width: 100px;
   height: 5px;
-  background-color: black;
+  background-color: rgb(5, 207, 197);
 }
 
 @media (max-width: 950px) {

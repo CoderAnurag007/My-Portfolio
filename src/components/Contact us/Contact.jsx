@@ -2,10 +2,13 @@ import React from "react";
 import { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 const Contact = () => {
+  const [loading, setloading] = useState(false);
   const form = useRef();
   const sendEmail = (e) => {
+    setloading(true);
     e.preventDefault();
 
     emailjs
@@ -17,7 +20,8 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
+          setloading(false);
         },
         (error) => {
           console.log(error.text);
@@ -44,7 +48,7 @@ const Contact = () => {
             placeholder="Enter Your message"
           ></textarea>
           <button className="send_btn" type="submit">
-            Send
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </div>

@@ -14,6 +14,7 @@ import Quick from "./logos/quick learn.jpg";
 import Problem from "./logos/problem solving.png";
 import Com from "./logos/communication skill.png";
 import scss from "./logos/scss.png";
+import Next from "./logos/next js.png";
 
 export const Skill = [
   {
@@ -27,6 +28,10 @@ export const Skill = [
   {
     name: "ReactJs",
     img: React,
+  },
+  {
+    name: "NextJs",
+    img: Next,
   },
   {
     name: "ReduxJs",

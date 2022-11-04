@@ -1,20 +1,22 @@
 .skillcard {
   width: 160px;
   height: 150px;
-  /* border: 2px solid red; */
   text-align: center;
   font-size: 0.85rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 4px 4px 15px rgba(112, 110, 110, 0.5);
+  box-shadow: 0px 0px 10px rgba(4, 204, 235, 0.313);
+  background-color: #19202a;
+
+  border-radius: 12px;
+  color: aliceblue;
 }
 .skill_logo img {
   width: 5rem;
   height: 4rem;
   border-radius: 8px;
-  box-shadow: 4px 4px 15px rgba(112, 110, 110, 0.5);
 }
 @media (max-width: 435px) {
   .skillcard {

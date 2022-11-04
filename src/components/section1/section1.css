@@ -24,10 +24,10 @@
   min-height: 400px;
   margin-top: 60px;
   width: 700px;
-  background: rgba(0, 0, 0, 0.9);
+  background: #1f2937;
   border-radius: 1em;
   backdrop-filter: blur(15px);
-  border: 2px solid white;
+  border: 2px solid rgb(220, 220, 220);
   background-clip: padding-box;
 }
 
@@ -81,7 +81,7 @@
   border-radius: 50%;
   margin-top: 50px;
   margin-right: 50px;
-  border: 2px solid white;
+  border: 2px solid rgb(219, 218, 218);
 }
 .occu {
   font-size: 1.3rem;
