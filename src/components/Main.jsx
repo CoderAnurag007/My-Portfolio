@@ -8,6 +8,7 @@ import Social from "./Socials/Social";
 import Contact from "./Contact us/Contact";
 import Footer from "./Footer/Footer";
 import Project2 from "./Projects/Project2";
+import Experience from "./Experience/Experience";
 
 const Main = () => {
   return (
@@ -17,7 +18,9 @@ const Main = () => {
         <Section2 />
         <Section3 />
         {/* <Projects /> */}
+        <Experience />
         <Project2 />
+
         <Resume />
         <Social />
         <Contact />

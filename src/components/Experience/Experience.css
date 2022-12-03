@@ -1,0 +1,45 @@
+.exp-container {
+  width: 80%;
+  margin: auto;
+  border-radius: 8px;
+  /* border: 2px solid white; */
+  color: white;
+  min-height: 50vh;
+  margin-top: 1rem;
+  /* background-color: #1f2937; */
+}
+.exp-container h1 {
+  text-align: center;
+  color: white;
+  font-size: 1.9rem;
+}
+
+.exp-container h1 .exphead {
+  color: yellow;
+}
+.exp-card-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #1f2937;
+  border-radius: 8px;
+  padding: 10px;
+}
+.exp-card {
+  width: 90%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #19202a;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin: auto;
+  text-align: left;
+}
+.exp-card-head {
+  font-weight: 500;
+  color: rgb(0, 255, 229);
+  width: 6rem;
+  display: block;
+}

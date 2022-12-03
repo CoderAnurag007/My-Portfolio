@@ -1,7 +1,7 @@
 .project-container {
   height: 90vh;
   width: 100vw;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 @media (max-width: 600px) {
   .project-container {
