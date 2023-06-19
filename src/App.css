@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
 .headcolor {
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .headcapital {
-  color: yellow;
+  color: rgb(16, 236, 0);
+  font-weight: 900;
+  font-family: "Nunito", sans-serif !important;
 }

@@ -6,27 +6,27 @@ body {
 
 .sec2box {
   /* background-color: black; */
-  background: linear-gradient(90deg, black, rgb(30, 30, 58));
-
+  background-color: white;
   color: white;
   min-height: 100vh;
   margin-bottom: 3rem;
 }
 h1 {
   text-align: center;
+  color: black;
+  font-weight: 900;
   font-size: 1.9rem;
 }
 
 .abouthead {
-  color: yellow;
-  font-weight: bold;
-
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(16, 236, 0);
+  font-weight: 900;
 }
 .textbox2 {
-  background-color: #1f2937;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   width: 80%;
+  box-shadow: 0 3px 25px rgba(107, 107, 107, 0.269);
+
   margin: auto;
   height: 80%;
   display: flex;
@@ -39,84 +39,50 @@ h1 {
 .textbox2 p {
   text-align: center;
   width: 80%;
+  font-weight: 600;
+  color: black;
 }
+
 .edubox {
-  margin-top: 2em;
-  width: 80%;
+  width: 100%;
 }
-.edubox h2 {
+
+.eduhead {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.cardsshell {
+  gap: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .educard {
-  width: 13rem;
-  height: 15rem;
-  /* border: 1px solid white; */
-  background-color: #19202a;
+  width: 15rem;
+  box-shadow: 0 3px 10px rgba(190, 188, 188, 0.461);
+  padding: 10px;
   border-radius: 12px;
+}
+.educard:nth-of-type(1) {
+  background-color: rgb(250, 219, 255);
+}
+.educard:nth-of-type(2) {
+  background-color: rgb(223, 255, 219);
+}
+.educard:nth-of-type(3) {
+  background-color: rgb(219, 255, 253);
+}
+.eduh2 {
+  text-align: center;
+  padding: 4px;
+  font-weight: 700;
+}
+
+.detailshell {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: left;
-  padding: 10px 0;
-}
-.educard ul {
-  width: 100%;
-  margin-top: 20px;
-  line-height: 1.2em;
-}
-.educard ul li {
-  list-style: none;
-  font-size: small;
-  width: 100%;
-
-  margin-left: -15px;
-}
-.educard h3 {
-  font-size: 0.9em;
-  text-align: center;
-  width: 100%;
-  color: rgba(255, 255, 255, 0.801);
-}
-.edubox .circle {
-  min-width: 10px;
-  min-height: 10px;
-  background-color: rgb(9, 223, 220);
-  border-radius: 50%;
-}
-.edubox .line {
-  width: 100px;
-  height: 5px;
-  background-color: rgb(5, 207, 197);
-}
-
-@media (max-width: 950px) {
-  .edubox .line {
-    width: 50px;
-  }
-  .edubox {
-    width: 100%;
-  }
-  .textbox2 {
-    padding: 15px;
-  }
-}
-.educontent {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-@media (max-width: 695px) {
-  .educontent {
-    display: flex;
-    flex-direction: column;
-  }
-  .edubox .line {
-    height: 40px;
-    width: 2px;
-  }
-  .textbox2 {
-    width: 95%;
-  }
+  gap: 5px;
 }

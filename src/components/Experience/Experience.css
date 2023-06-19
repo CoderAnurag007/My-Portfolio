@@ -5,24 +5,29 @@
   /* border: 2px solid white; */
   color: white;
   min-height: 50vh;
-  margin-top: 1rem;
+  margin-top: 4rem;
   /* background-color: #1f2937; */
 }
 .exp-container h1 {
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
+  margin-bottom: 2rem;
+
   font-size: 1.9rem;
 }
 
 .exp-container h1 .exphead {
-  color: yellow;
+  color: rgb(16, 236, 0);
+  font-weight: 900;
 }
 .exp-card-box {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   justify-content: center;
-  background-color: #1f2937;
+  box-shadow: 0 3px 25px rgba(107, 107, 107, 0.269);
+
+  background-color: #ffffff;
   border-radius: 8px;
   padding: 10px;
 }
@@ -31,15 +36,16 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  background-color: #19202a;
   padding: 10px;
   font-size: 0.9rem;
   margin: auto;
+  color: black;
   text-align: left;
 }
 .exp-card-head {
-  font-weight: 500;
-  color: rgb(0, 255, 229);
-  width: 6rem;
+  font-weight: 800;
+  font-size: 1rem;
+  color: rgb(14, 195, 1);
+  /* width: 6rem; */
   display: block;
 }

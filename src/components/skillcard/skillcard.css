@@ -6,12 +6,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: rgb(255, 255, 255);
   align-items: center;
-  /* box-shadow: inset 0px 0px 10px rgba(4, 204, 235, 0.313); */
-  background-color: #19202a;
-
+  box-shadow: 0 3px 15px rgba(179, 177, 177, 0.461);
   border-radius: 12px;
-  color: aliceblue;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
 .skill_logo img {
   width: 5rem;

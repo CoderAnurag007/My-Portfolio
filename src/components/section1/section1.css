@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
 .body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   height: 100vh;
+  background-color: rgb(255, 255, 255);
+  font-family: "Nunito", sans-serif !important;
 }
 
 .body::before {
@@ -17,6 +21,25 @@
   opacity: 0.75;
 }
 
+.ball1 {
+  width: 50px;
+  background: radial-gradient(circle at 100px 100px, #ff0000, #f43905);
+  height: 50px;
+  border-radius: 50%;
+}
+.ball2 {
+  width: 50px;
+  background: radial-gradient(circle at 100px 100px, #6f00ff, #ac05f4);
+  height: 50px;
+  border-radius: 50%;
+}
+.ball3 {
+  width: 50px;
+  background: radial-gradient(circle at 100px 100px, #002aff, #055df4);
+  height: 50px;
+  border-radius: 50%;
+}
+
 .text {
   display: flex;
   justify-content: space-between;
@@ -24,10 +47,11 @@
   min-height: 400px;
   margin-top: 60px;
   width: 700px;
-  background: #1f2937;
+  backdrop-filter: blur(2px);
+  background: transparent;
+  box-shadow: 0 3px 25px rgba(107, 107, 107, 0.269);
   border-radius: 1em;
   backdrop-filter: blur(15px);
-  border: 2px solid rgb(220, 220, 220);
   background-clip: padding-box;
 }
 
@@ -60,62 +84,59 @@
   margin-left: 100px;
 }
 .textwrap .first {
-  color: yellow;
-  font-weight: bold;
+  color: rgb(16, 236, 0);
+  font-weight: 900;
   font-size: 2em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .textwrap .other {
-  color: white;
-  font-weight: bold;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  /* font-weight: bold; */
   font-size: 2em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .imagesec1 {
-  width: 250px;
-  height: 250px;
+  width: 210px;
+  height: 210px;
   z-index: 2;
   background-image: url("../../../public/profile.jpg");
   background-size: cover;
   border-radius: 50%;
   margin-top: 50px;
   margin-right: 50px;
-  border: 2px solid rgb(219, 218, 218);
 }
 .occu {
   font-size: 1.3rem;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .field {
   font-size: 1.35rem;
   color: white;
   font-weight: bold;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   animation: textwriter 2s linear infinite;
   transition: 1s all;
 }
 .words {
   overflow: hidden;
   height: 25px;
+  font-weight: 900;
 }
 .words span {
   animation: rotatetxt 12s infinite;
   display: block;
 }
 .words span:nth-child(1) {
-  color: rgb(255, 255, 255);
+  color: rgb(1, 30, 196);
 }
 .words span:nth-child(2) {
-  color: yellow;
+  color: rgb(255, 0, 0);
 }
 .words span:nth-child(3) {
-  color: rgb(152, 250, 6);
+  color: rgb(3, 193, 0);
 }
 .words span:nth-child(4) {
-  color: aqua;
+  color: rgb(104, 0, 201);
 }
 @keyframes rotatetxt {
   25% {
@@ -151,4 +172,19 @@
   .textwrap {
     margin-left: 80px;
   }
+}
+
+.parent {
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  height: 100%;
+  padding-bottom: 5rem;
+}
+
+.circle {
+  position: absolute;
+
+  transition: transform 6s;
 }

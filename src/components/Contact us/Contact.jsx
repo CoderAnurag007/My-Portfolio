@@ -30,16 +30,25 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="contact_container">
-      <div className="formbox">
-        <div className="contact_text">Feel free to Message me</div>
-        <form ref={form} onSubmit={sendEmail}>
+    <div className="formbox">
+      <div className="contact_text">
+        {" "}
+        <span className="headcapital">F</span>eel{" "}
+        <span className="headcapital">F</span>ree{" "}
+        <span className="headcapital">T</span>o{" "}
+        <span className="headcapital">M</span>essage{" "}
+        <span className="headcapital">M</span>e
+      </div>
+      <form ref={form} onSubmit={sendEmail}>
+        <div className="namediv">
           <input type="text" placeholder="Enter Your Name" name="user_name" />
           <input
             type="email"
             placeholder="Enter Your Email"
             name="user_email"
           />
+        </div>
+        <div>
           <textarea
             name="message"
             id=""
@@ -47,11 +56,11 @@ const Contact = () => {
             rows="5"
             placeholder="Enter Your message"
           ></textarea>
-          <button className="send_btn" type="submit">
-            {loading ? "Sending..." : "Send"}
-          </button>
-        </form>
-      </div>
+        </div>
+        <div className="send_btn" type="submit">
+          {loading ? "Sending..." : "Send >>"}
+        </div>
+      </form>
     </div>
   );
 };

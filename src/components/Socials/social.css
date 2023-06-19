@@ -1,89 +1,51 @@
 .socialbox {
-  width: 100%;
-  min-height: 100vh;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 2rem;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 20px;
+  gap: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 25px rgba(107, 107, 107, 0.269);
+
   /* row-gap: -1rem; */
 }
-
-@media (max-width: 520px) {
-  .socialbox {
-    min-height: 50vh;
-  }
+.socialbox h1 {
+  text-align: center;
 }
+
 .leftsocial {
-  width: 50%;
   margin-right: 2rem;
   height: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 .leftsocial .socialcard {
-  border-radius: 24px;
+  border-radius: 12px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 10rem;
   gap: 1rem;
-  height: 10rem;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+  padding: 20px 10px;
+  box-shadow: 0 3px 15px rgba(113, 113, 113, 0.4);
   transition: 0.1s all;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
-.socialcard:nth-child(1):hover {
-  box-shadow: 0 0 15px rgba(46, 4, 253, 0.8);
-}
-.socialcard:nth-child(2):hover {
-  box-shadow: 0 0 15px rgba(255, 136, 0, 0.8);
-}
-.socialcard:nth-child(3):hover {
-  box-shadow: 0 0 15px rgba(252, 255, 238, 0.8);
-}
-.socialcard:nth-child(4):hover {
-  box-shadow: 0 0 15px rgba(43, 255, 0, 0.8);
-}
-.socialcard:nth-child(5):hover {
-  box-shadow: 0 0 15px rgba(153, 0, 255, 0.8);
-}
 .socialcard a {
-  color: aqua;
+  color: rgb(0, 0, 0);
   cursor: pointer;
-  text-decoration: none;
 }
 .socialcard a:hover {
-  color: rgb(47, 255, 61);
+  color: rgb(105, 0, 209);
 }
 
 .socialcard img {
-  width: 3rem;
-  height: 3rem;
-}
-
-.rightsocial {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 725px) {
-  .socialbox {
-    flex-direction: column;
-    height: 70vh;
-  }
-  .leftsocial {
-    margin-right: 0rem;
-
-    width: 100%;
-  }
-  .rightsocial {
-    width: 100%;
-  }
+  width: 40px;
+  height: 40px;
 }

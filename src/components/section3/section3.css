@@ -1,22 +1,23 @@
 .section3-container {
   width: 100%;
   min-height: 120vh;
+  background: white;
 }
 
 .section3-container h1 {
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.8rem;
 }
 
 .section3-container h1 .skillhead {
-  color: yellow;
+  color: rgb(16, 236, 0);
+  font-weight: 900;
 }
 
 .skills-container {
   width: 80%;
   margin: auto;
-  background-color: #1f2937;
   min-height: 70%;
   margin-top: 20px;
   border-radius: 12px;
