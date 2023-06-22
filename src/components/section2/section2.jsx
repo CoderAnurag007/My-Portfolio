@@ -10,12 +10,14 @@ const Section2 = () => {
       <div className="textbox2">
         <p>
           My name is Anurag Singh . I am an Hardworking Computer Science
-          Engineer. I Am Persuing B-Tech from Jawaharlal Nehru college of
+          Engineer. I have done B-Tech from Jawaharlal Nehru college of
           technology , Rewa associated with Rajiv gandhi Prodyogiki
-          vishwavidyalaya University Bhopal . I am a MERN Stack Web Developer
-          and Programmer . I have good Communication skills in Both English and
-          Hindi languages . I am Tech enthusiast and a quick learner and problem
-          solver.
+          vishwavidyalaya University Bhopal with overall CGPA of 8.71 . I am a
+          MERN Stack Web Developer and Programmer . I have good Communication
+          skills in Both English and Hindi languages . I am Tech enthusiast and
+          a quick learner and problem solver. Now in order to kickstart my
+          Professional career and grow. I am actively looking for Full time Job
+          Opportunities .
         </p>
 
         {/* <div className="edubox">
