@@ -89,3 +89,29 @@ textarea {
     width: 100%;
   }
 }
+.thankyoumsg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thankyoumsg img {
+  width: 120px;
+  height: 120px;
+}
+.thankyoumsg .error {
+  color: red;
+}
+.thankyoumsg h3 {
+  font-size: medium;
+  text-align: center;
+  font-weight: 900;
+}
+.thankyoumsg p {
+  text-align: center;
+}
+@media (max-width: 750px) {
+  .formbox {
+    width: 95%;
+  }
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import "./resume.css";
-import Emoji from "../../images/Smiling Face with Halo.png";
 import ResumePdf from "../../images/updated.pdf";
 
 const Resume = () => {

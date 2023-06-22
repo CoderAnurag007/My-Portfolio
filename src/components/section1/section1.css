@@ -69,7 +69,7 @@
     height: 150px;
   }
   .textwrap {
-    margin-left: 0px;
+    margin: 20px !important;
   }
 }
 
@@ -112,15 +112,20 @@
 }
 .field {
   font-size: 1.35rem;
-  color: white;
   font-weight: bold;
-  animation: textwriter 2s linear infinite;
+  /* animation: textwriter 2s linear infinite; */
   transition: 1s all;
 }
 .words {
   overflow: hidden;
-  height: 25px;
+  /* border: 2px solid red !important; */
+  padding: 10px;
+  height: 33px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(165, 165, 165, 0.32);
   font-weight: 900;
+  margin-left: -10px;
 }
 .words span {
   animation: rotatetxt 12s infinite;
@@ -140,22 +145,22 @@
 }
 @keyframes rotatetxt {
   25% {
-    transform: translateY(-112%);
+    transform: translateY(-118%);
   }
   30% {
-    transform: translateY(-100%);
+    transform: translateY(-108%);
   }
   50% {
-    transform: translateY(-212%);
+    transform: translateY(-220%);
   }
   55% {
-    transform: translateY(-200%);
+    transform: translateY(-208%);
   }
   75% {
-    transform: translateY(-312%);
+    transform: translateY(-320%);
   }
   80% {
-    transform: translateY(-300%);
+    transform: translateY(-308%);
   }
 }
 

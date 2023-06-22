@@ -31,7 +31,8 @@
   align-items: center;
   justify-content: space-around;
   gap: 1rem;
-  padding: 20px 10px;
+  padding: 10px;
+  width: 12rem;
   box-shadow: 0 3px 15px rgba(113, 113, 113, 0.4);
   transition: 0.1s all;
   background-color: rgb(255, 255, 255);
@@ -40,12 +41,26 @@
 .socialcard a {
   color: rgb(0, 0, 0);
   cursor: pointer;
-}
-.socialcard a:hover {
-  color: rgb(105, 0, 209);
+  text-decoration: none;
+  height: 100%;
+  /* border-left: 1px solid gray; */
+  background-color: rgb(245, 245, 245);
+  border-radius: 12px;
+  padding: 4px;
+  width: 80%;
+  color: rgb(63, 0, 209);
+  text-align: center;
 }
 
 .socialcard img {
   width: 40px;
   height: 40px;
+}
+@media (max-width: 750px) {
+  .socialbox {
+    width: 95%;
+  }
+  .socialcard {
+    width: 100% !important;
+  }
 }

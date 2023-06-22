@@ -9,6 +9,11 @@
   border-radius: 12px;
   margin-top: 5rem;
 }
+@media (max-width: 750px) {
+  .resumebox {
+    width: 95%;
+  }
+}
 
 .download_btn {
   padding: 10px;

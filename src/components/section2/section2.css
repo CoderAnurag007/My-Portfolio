@@ -86,3 +86,9 @@ h1 {
   flex-direction: column;
   gap: 5px;
 }
+
+@media (max-width: 750px) {
+  .textbox2 {
+    width: 95%;
+  }
+}
