@@ -21,10 +21,6 @@
   font-size: 1.9rem;
 }
 
-.exp-container h1 .exphead {
-  color: rgb(16, 236, 0);
-  font-weight: 900;
-}
 .exp-card-box {
   display: flex;
   flex-direction: column;
@@ -48,9 +44,9 @@
   text-align: left;
 }
 .exp-card-head {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1rem;
-  color: rgb(14, 195, 1);
+  color: rgb(0, 60, 255);
   /* width: 6rem; */
   display: block;
 }

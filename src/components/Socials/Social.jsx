@@ -9,11 +9,7 @@ import Github from "../../logos/github.png";
 const Social = () => {
   return (
     <div className="socialbox">
-      <h1 className="headcolor">
-        <span className="headcapital">O</span>nline
-        <span className="headcapital"> P</span>resence /{" "}
-        <span className="headcapital"> S</span>ocials
-      </h1>
+      <h1 className="headcolor">Online Presence / Socials</h1>
 
       <div className="leftsocial">
         <div className="socialcard">

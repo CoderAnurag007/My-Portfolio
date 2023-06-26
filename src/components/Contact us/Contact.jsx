@@ -54,14 +54,7 @@ const Contact = () => {
         )
       ) : (
         <>
-          <div className="contact_text">
-            {" "}
-            <span className="headcapital">F</span>eel{" "}
-            <span className="headcapital">F</span>ree{" "}
-            <span className="headcapital">T</span>o{" "}
-            <span className="headcapital">M</span>essage{" "}
-            <span className="headcapital">M</span>e
-          </div>
+          <div className="contact_text"> Feel free to message me</div>
           <form ref={form}>
             <div className="namediv">
               <input

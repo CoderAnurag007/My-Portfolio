@@ -8,10 +8,7 @@
     height: 61vh;
   }
 }
-.project-head {
-  color: rgb(16, 236, 0);
-  font-weight: 900;
-}
+
 .project-container h1 {
   color: rgb(0, 0, 0);
 }
@@ -86,7 +83,7 @@
 }
 .scroll {
   width: 7rem;
-  color: rgb(125, 243, 233);
+  color: rgb(255, 255, 255);
   background-color: black;
   margin: auto;
   padding: 5px;

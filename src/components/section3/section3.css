@@ -6,13 +6,8 @@
 
 .section3-container h1 {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(30, 30, 30);
   font-size: 1.8rem;
-}
-
-.section3-container h1 .skillhead {
-  color: rgb(16, 236, 0);
-  font-weight: 900;
 }
 
 .skills-container {

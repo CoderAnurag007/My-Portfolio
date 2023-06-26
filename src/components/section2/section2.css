@@ -7,23 +7,21 @@ body {
 .sec2box {
   /* background-color: black; */
   background-color: white;
-  color: white;
   min-height: 100vh;
   margin-bottom: 3rem;
 }
 h1 {
   text-align: center;
   color: black;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.9rem;
 }
 
 .abouthead {
-  color: rgb(16, 236, 0);
-  font-weight: 900;
+  font-weight: 700;
 }
 .textbox2 {
-  color: rgb(0, 0, 0);
+  color: black;
   width: 80%;
   box-shadow: 0 3px 25px rgba(107, 107, 107, 0.269);
 
@@ -39,7 +37,7 @@ h1 {
 .textbox2 p {
   text-align: center;
   width: 80%;
-  font-weight: 600;
+  font-weight: 500;
   color: black;
 }
 
@@ -62,11 +60,11 @@ h1 {
 }
 .educard {
   width: 15rem;
-  box-shadow: 0 3px 10px rgba(190, 188, 188, 0.461);
+  box-shadow: 0px 5px 20px rgba(165, 165, 165, 0.34);
   padding: 10px;
-  border-radius: 12px;
+  border-radius: 8px;
 }
-.educard:nth-of-type(1) {
+/* .educard:nth-of-type(1) {
   background-color: rgb(250, 219, 255);
 }
 .educard:nth-of-type(2) {
@@ -74,17 +72,21 @@ h1 {
 }
 .educard:nth-of-type(3) {
   background-color: rgb(219, 255, 253);
-}
+} */
 .eduh2 {
   text-align: center;
   padding: 4px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .detailshell {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.detailshell div span {
+  font-weight: 600;
+  color: black;
 }
 
 @media (max-width: 750px) {

@@ -17,19 +17,27 @@
 
 .download_btn {
   padding: 10px;
+  /* background: #01119f; */
   border-radius: 24px;
-  background: radial-gradient(rgb(151, 247, 180), rgb(88, 255, 76));
   transition: 0.3s;
   box-shadow: 0 3px 10px rgba(109, 109, 109, 0.5);
   font-weight: 700;
 }
 .download_btn a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: rgb(9, 9, 9);
+}
+.download_btn a svg {
+  width: 30px;
+  height: 30px;
 }
 .download_btn:hover {
   cursor: pointer;
-  background: radial-gradient(rgb(0, 219, 66), rgb(88, 255, 76));
+  box-shadow: 0 3px 5px rgba(109, 109, 109, 0.311);
 }
 .downloadcv {
   color: white;

@@ -27,17 +27,17 @@ const Section2 = () => {
               <h3>High School - 10th</h3>
               <ul>
                 <div>
-                  <b>Board</b> - State board Madhya Pradesh , Bhopal.
+                  <span>Board</span> - State board Madhya Pradesh , Bhopal.
                 </div>
                 <div>
-                  <b>School</b> - Vindhya Academy Higher Secondary School ,
+                  <span>School</span> - Vindhya Academy Higher Secondary School ,
                   churhat.
                 </div>
                 <div>
-                  <b>Percentage</b> - 86% .
+                  <span>Percentage</span> - 86% .
                 </div>
                 <div>
-                  <b>Year</b> - 2017 .
+                  <span>Year</span> - 2017 .
                 </div>
               </ul>
             </div>
@@ -47,17 +47,17 @@ const Section2 = () => {
               <h3>Higher Secondary -12th</h3>
               <ul>
                 <div>
-                  <b>Board</b>- State board Madhya Pradesh , Bhopal.
+                  <span>Board</span>- State board Madhya Pradesh , Bhopal.
                 </div>
                 <div>
-                  <b>School</b> - Vindhya Academy Higher Secondary School ,
+                  <span>School</span> - Vindhya Academy Higher Secondary School ,
                   churhat.
                 </div>
                 <div>
-                  <b>Percentage</b> - 80%.
+                  <span>Percentage</span> - 80%.
                 </div>
                 <div>
-                  <b>Year</b> - 2019.
+                  <span>Year</span> - 2019.
                 </div>
               </ul>
             </div>
@@ -67,17 +67,17 @@ const Section2 = () => {
               <h3>B-Tech</h3>
               <ul>
                 <div>
-                  <b>University</b> - RGPV , Bhopal.
+                  <span>University</span> - RGPV , Bhopal.
                 </div>
                 <div>
-                  <b>College</b> - Jawaharlal nehru college of technology ,
+                  <span>College</span> - Jawaharlal nehru college of technology ,
                   Rewa.
                 </div>
                 <div>
-                  <b>CGPA</b> - 8.78.
+                  <span>CGPA</span> - 8.78.
                 </div>
                 <div>
-                  <b>Year</b> -from 2019 to 2023(expected).
+                  <span>Year</span> -from 2019 to 2023(expected).
                 </div>
               </ul>
             </div>
@@ -91,17 +91,17 @@ const Section2 = () => {
               <div className="eduh2">High School - 10th</div>
               <div className="detailshell">
                 <div>
-                  <b>Board</b> - State board Madhya Pradesh , Bhopal.
+                  <span>Board</span> - State board Madhya Pradesh , Bhopal.
                 </div>
                 <div>
-                  <b>School</b> - Vindhya Academy Higher Secondary School ,
-                  churhat.
+                  <span>School</span> - Vindhya Academy Higher Secondary School
+                  , churhat.
                 </div>
                 <div>
-                  <b>Percentage</b> - 86% .
+                  <span>Percentage</span> - 86% .
                 </div>
                 <div>
-                  <b>Year</b> - 2017 .
+                  <span>Year</span> - 2017 .
                 </div>
               </div>
             </div>
@@ -109,17 +109,17 @@ const Section2 = () => {
               <div className="eduh2">Higher Secondary -12th</div>
               <div className="detailshell">
                 <div>
-                  <b>Board</b>- State board Madhya Pradesh , Bhopal.
+                  <span>Board</span>- State board Madhya Pradesh , Bhopal.
                 </div>
                 <div>
-                  <b>School</b> - Vindhya Academy Higher Secondary School ,
-                  churhat.
+                  <span>School</span> - Vindhya Academy Higher Secondary School
+                  , churhat.
                 </div>
                 <div>
-                  <b>Percentage</b> - 80%.
+                  <span>Percentage</span> - 80%.
                 </div>
                 <div>
-                  <b>Year</b> - 2019.
+                  <span>Year</span> - 2019.
                 </div>
               </div>
             </div>
@@ -127,17 +127,17 @@ const Section2 = () => {
               <div className="eduh2">Graduation - B-Tech</div>
               <div className="detailshell">
                 <div>
-                  <b>University</b> - RGPV , Bhopal.
+                  <span>University</span> - RGPV , Bhopal.
                 </div>
                 <div>
-                  <b>College</b> - Jawaharlal nehru college of technology ,
-                  Rewa.
+                  <span>College</span> - Jawaharlal nehru college of technology
+                  , Rewa.
                 </div>
                 <div>
-                  <b>Overall Score</b> - 8.7 CGPA
+                  <span>Overall Score</span> - 8.7 CGPA
                 </div>
                 <div>
-                  <b>Year</b> -from 2019 to 2023
+                  <span>Year</span> -from 2019 to 2023
                 </div>
               </div>
             </div>
