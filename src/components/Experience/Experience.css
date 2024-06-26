@@ -2,6 +2,10 @@
   width: 80%;
   margin: auto;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
   /* border: 2px solid white; */
   color: white;
   min-height: 50vh;
@@ -16,7 +20,7 @@
 .exp-container h1 {
   text-align: center;
   color: rgb(0, 0, 0);
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 
   font-size: 1.9rem;
 }
@@ -26,7 +30,8 @@
   flex-direction: column;
   gap: 1rem;
   justify-content: center;
-  box-shadow: 0 3px 25px rgba(107, 107, 107, 0.269);
+  box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.258);
+  border: 2px solid rgba(128, 128, 128, 0.342);
 
   background-color: #ffffff;
   border-radius: 8px;
@@ -46,7 +51,31 @@
 .exp-card-head {
   font-weight: 700;
   font-size: 1rem;
-  color: rgb(0, 60, 255);
+  color: rgb(0, 0, 0);
   /* width: 6rem; */
   display: block;
+}
+.exp-card-box:nth-last-of-type(1){
+  animation: expcardanimation 5s linear infinite;
+}
+@keyframes expcardanimation{
+  0%{
+    border: 2px solid rgba(255, 0, 0, 0.749);
+  }
+  20%{
+    border: 2px solid rgba(0, 64, 255, 0.74);
+  }
+  50%{
+    border: 2px solid rgba(30, 255, 0, 0.852);
+  }
+  70%{
+    border: 2px solid rgba(0, 251, 255, 0.651);
+  }
+  90%{
+    border: 2px solid rgba(255, 0, 242, 0.845);
+  }
+  100%{
+    border: 2px solid rgba(255, 0, 0, 0.749);
+  }
+  
 }

@@ -40,8 +40,9 @@ const Contact = () => {
       {sent ? (
         error ? (
           <div className="thankyoumsg">
-            <h3 className="error">An Error Occured!</h3>
+            <h3 className="error">Something didn't worked i think :(</h3>
             <p>Please Mail Me - Anuragsinghg999@gmail.com</p>
+            <p>Contact - +91 6261178107</p>
           </div>
         ) : (
           <div className="thankyoumsg">

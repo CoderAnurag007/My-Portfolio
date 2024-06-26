@@ -6,6 +6,7 @@ import Pokemon from "../../logos/poke.png";
 import Dashboard from "../../logos/react dashboard.png";
 import Paint from "../../logos/paint.png";
 import Ayum from "../../logos/Screenshot (89).png";
+import Tourplan from "../../logos/tourplan.png";
 import SocialMedia from "../../images/rezzit.png";
 import "./project2.css";
 const Project2 = () => {
@@ -42,6 +43,33 @@ const Project2 = () => {
         </div>
         <div className="project-card">
           <h1>2</h1>
+          <img src={Tourplan} alt="" />
+          <h5 style={{ textAlign: "center" }}>
+            Tourplanner AI - Tourplanning website with Chatbot integrated
+          </h5>
+          <div className="desc">
+            This is an Fully functional Health care web app built using Nextjs ,
+            Reactjs and Nodejs . deployed in vercel having chatbot integration
+          </div>
+          <div className="projectopen">
+            <a
+              rel="noopener noreferrer"
+              href="https://github.com/CoderAnurag007/Tourplannerai-Frontend.git"
+              target={"_blank"}
+            >
+              Github
+            </a>
+            <a
+              rel="noopener noreferrer"
+              href="https://tourplannerai.netlify.app/"
+              target={"_blank"}
+            >
+              Live Demo
+            </a>
+          </div>
+        </div>
+        <div className="project-card">
+          <h1>3</h1>
           <img src={SocialMedia} alt="" />
           <h5>Notes Posting</h5>
           <div className="desc">
@@ -67,7 +95,7 @@ const Project2 = () => {
           </div>
         </div>
         <div className="project-card">
-          <h1>3</h1>
+          <h1>4</h1>
           <img src={Machz} alt="" />
           <h5>MachZ Clothing</h5>
           <div className="desc">
@@ -92,7 +120,7 @@ const Project2 = () => {
           </div>
         </div>
         <div className="project-card">
-          <h1>4</h1>
+          <h1>5</h1>
           <img src={Text} alt="" />
           <h5>Text Manipulator</h5>
           <div className="desc">
@@ -117,7 +145,7 @@ const Project2 = () => {
           </div>
         </div>
         <div className="project-card">
-          <h1>5</h1>
+          <h1>6</h1>
           <img src={Paint} alt="" />
           <h5>Online Paint App</h5>
           <div className="desc">
@@ -135,7 +163,7 @@ const Project2 = () => {
           </div>
         </div>
         <div className="project-card">
-          <h1>6</h1>
+          <h1>7</h1>
           <img src={Pokemon} alt="..." />
           <h5>Pokemon Search Web App</h5>
           <div className="desc">
@@ -159,7 +187,7 @@ const Project2 = () => {
           </div>
         </div>
         <div className="project-card">
-          <h1>7</h1>
+          <h1>8</h1>
           <img src={Dashboard} alt="..." />
           <h5>Responsive Dashboard UI</h5>
           <div className="desc">

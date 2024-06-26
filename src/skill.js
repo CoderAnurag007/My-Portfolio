@@ -15,6 +15,8 @@ import Problem from "./logos/problem solving.png";
 import Com from "./logos/communication skill.png";
 import scss from "./logos/scss.png";
 import Next from "./logos/next js.png";
+import AWS from "./logos/aws.png";
+import Katlon from "./logos/katlon.png";
 
 export const Skill = [
   {
@@ -50,6 +52,10 @@ export const Skill = [
     img: Mongo,
   },
   {
+    name: "AWS",
+    img: AWS,
+  },
+  {
     name: "Firebase",
     img: Firebase,
   },
@@ -68,6 +74,10 @@ export const Skill = [
   {
     name: "Data Structures and Algorithims",
     img: DataStructue,
+  },
+  {
+    name: "Automation Testing",
+    img: Katlon,
   },
   {
     name: "Quick Learner",
