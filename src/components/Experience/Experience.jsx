@@ -18,8 +18,8 @@ const Experience = () => {
               Healthcare Private Limited
             </div>
             <div>
-              <span className="exp-card-head">Duration &darr; </span>Feburary
-              2020 to July 2022
+              <span className="exp-card-head">Duration &darr; </span>December
+              2021 to August 2022
             </div>
 
             <div>
