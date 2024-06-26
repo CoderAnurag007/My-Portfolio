@@ -61,8 +61,8 @@ const Experience = () => {
               Web Developer
             </div>
             <div>
-              <span className="exp-card-head">Company &darr; </span>Oneautoparts
-              US
+              <span className="exp-card-head">Company &darr; </span>
+              Onchanneladmin (MODERN TECHSERV INDIA - OPC)
             </div>
             <div>
               <span className="exp-card-head">Duration &darr; </span>June 2023
